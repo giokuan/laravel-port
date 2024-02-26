@@ -1,4 +1,5 @@
-<section class="bg-base-100 dark:bg-slate-800" id="contact">
+
+<section data-aos="zoom-in" data-aos-duration="2000" class="z-20 bg-base-100 dark:bg-slate-800" id="contact">
    <x-toast />
     <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
         <div class="mb-4">
@@ -107,7 +108,7 @@
                          
 
                         <div class="text-center">
-                            <button type="submit"  class="w-full px-6 py-3 text-white bg-gray-500 rounded-md font-xl sm:mb-0">Send Message</button>
+                            <button type="submit"  class="w-full px-6 py-3 text-white bg-gray-500 rounded-md font-xl sm:mb-0 hover:bg-gray-600">Send Message</button>
                           
                         </div>
                       
@@ -117,5 +118,7 @@
             </div>
         </div>
     </div>
+
+   
 </section>
 

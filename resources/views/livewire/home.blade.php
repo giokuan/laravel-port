@@ -1,7 +1,6 @@
 
-<!-- source https://github.com/themesberg/landwind -->
 
-<section class="bg-white dark:bg-gray-900">
+<section data-aos="zoom-in" data-aos-duration="2000" class="bg-white dark:bg-gray-900 area">
     <div class="flex flex-col max-w-screen-xl px-4 pt-20 pb-8 mx-auto xl:flex-row lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
 
         <div class="hidden lg:mt-0 lg:col-span-5 md:flex xl:order-2">
@@ -37,4 +36,20 @@
        
 
     </div>
+
+{{-- Background animation --}}
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+		
 </section>
