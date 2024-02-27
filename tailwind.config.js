@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    
     content: [
         // You will probably also need these lines
         "./resources/**/**/*.blade.php",
@@ -9,19 +8,16 @@ export default {
         "./app/Livewire/**/**/*.php",
 
         // Add mary
-        "./vendor/robsontenorio/mary/src/View/Components/**/*.php"
+        "./vendor/robsontenorio/mary/src/View/Components/**/*.php",
     ],
     theme: {
         extend: {
             animation: {
-                wiggle: 'wiggle 1s ease-in-out infinite',
-              }
+                wiggle: "wiggle 1s ease-in-out infinite",
+            },
         },
     },
 
     // Add daisyUI
-    plugins: [require("daisyui"), ('@tailwindcss/animation'),]
-
-    
-}
-
+    plugins: [require("daisyui"), "@tailwindcss/animation"],
+};
