@@ -82,8 +82,8 @@
 
 
                         <nav class="flex gap-4 mr-4 text-gray-500 dark:text-sky-500">
-                            <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
+                            <a href="https://github.com/giokuan"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                                     <path
                                         d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
                                         0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
@@ -116,8 +116,8 @@
 
                 <x-menu-item title="Home" icon="o-home" link="/" />
                 <x-menu-item title="Projects" icon="o-code-bracket-square" link="/projects" />
-                <x-menu-item title="My Stacks" icon="o-square-3-stack-3d" />
-                <x-menu-item title="About me" icon="o-user-circle" />
+                <x-menu-item title="My Stacks" icon="o-square-3-stack-3d" link="/stacks" />
+                <x-menu-item title="About me" icon="o-user-circle" link="/about" />
                 <x-menu-item title="Contact me" icon="o-phone" link="/contact" />
                 {{-- <x-menu-sub title="Settings" icon="o-cog-6-tooth">
                     <x-menu-item title="Wifi" icon="o-wifi" link="####" />

@@ -1,4 +1,4 @@
-<section data-aos="zoom-in" data-aos-duration="2000" class="z-20 bg-base-100 dark:bg-slate-800" id="contact">
+<section class="z-20 bg-base-100 dark:bg-slate-800" id="contact">
     <x-toast />
     <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
         <div class="mb-4">
@@ -88,8 +88,10 @@
                         @endif --}}
 
                     <form id="contactForm" wire:submit.prevent="submitForm">
-                        <div wire:loading>
+                        <div wire:loading class="flex items-center justify-center">
+                            <span>Sending</span>
                             <span class="wire:loading loading loading-dots loading-md"></span>
+
                         </div>
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">

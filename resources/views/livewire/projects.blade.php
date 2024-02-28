@@ -90,10 +90,11 @@
                             <p>Alpine Js</p>
                         </div>
 
-                        {{-- <div class="flex gap-4 ">
-                            <img src="storage/mysql.png" class="w-6 h-6">
+                        <div class="flex gap-4 mb-2">
+                            <img src="storage/mysql.svg" class="w-6 h-6">
                             <p>MySQL</p>
-                        </div> --}}
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -153,10 +154,16 @@
                             <p>Tailwind</p>
                         </div>
 
-                        <div class="flex gap-4 ">
+                        <div class="flex gap-4 mb-2">
                             <img src="storage/alpinejs-icon.svg" class="w-6 h-6">
                             <p>Alpine Js</p>
                         </div>
+
+                        <div class="flex gap-4 ">
+                            <img src="storage/mysql.svg" class="w-6 h-6">
+                            <p>MySQL</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -200,24 +207,20 @@
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/laravel.svg" class="w-6 h-6">
-                            <p>Laravel</p>
+                            <img src="storage/python.svg" class="w-6 h-6">
+                            <p>Python</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/livewire.svg" class="w-6 h-6">
-                            <p>Livewire</p>
+                            <img src="storage/qt.svg" class="w-6 h-6">
+                            <p>PyQT5</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/tailwind-css.svg" class="w-6 h-6">
-                            <p>Tailwind</p>
+                            <img src="storage/mysql.svg" class="w-6 h-6">
+                            <p>MySQL</p>
                         </div>
 
-                        <div class="flex gap-4 ">
-                            <img src="storage/alpinejs-icon.svg" class="w-6 h-6">
-                            <p>Alpine Js</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -263,27 +266,45 @@
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/laravel.svg" class="w-6 h-6">
-                            <p>Laravel</p>
+                            <img src="storage/python.svg" class="w-6 h-6">
+                            <p>Python</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/livewire.svg" class="w-6 h-6">
-                            <p>Livewire</p>
+                            <img src="storage/qt.svg" class="w-6 h-6">
+                            <p>PyQT5</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/tailwind-css.svg" class="w-6 h-6">
-                            <p>Tailwind</p>
+                            <img src="storage/mysql.svg" class="w-6 h-6">
+                            <p>MySQL</p>
                         </div>
 
-                        <div class="flex gap-4 ">
-                            <img src="storage/alpinejs-icon.svg" class="w-6 h-6">
-                            <p>Alpine Js</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </main>
+        {{-- Livewire: fires network request --}}
+        {{-- <x-button label="Livewire" class="btn-primary" wire:click="$toggle('myPersistentModal')" /> --}}
+
+        {{-- Alpine: no network request --}}
+        <x-button label="View Demo" class="text-white bg-gray-500" @click="$wire.myPersistentModal4 = true" />
+
+        {{-- Notice `persistent` --}}
+        <x-modal wire:model="myPersistentModal4" title="THE LAZY READER" separator persistent
+            class="w-full text-gray-500 ">
+            <video width="420" height="340" controls class="w-full rounded-t-lg">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+
+            <x-slot:actions>
+                <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal4 = false" />
+                {{-- <x-button label="Confirm" class="btn-primary" /> --}}
+            </x-slot:actions>
+        </x-modal>
     </div>
 </div>

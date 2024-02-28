@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Start Animations*/
+/*Start Animations Homepage */
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
