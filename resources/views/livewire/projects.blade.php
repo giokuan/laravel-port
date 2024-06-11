@@ -1,61 +1,15 @@
-{{-- <div class="area">
-<nav class="py-4 bg-gray-300">
-    <div class="container flex items-center justify-between px-4 mx-auto">
-        <h1 class="text-2xl font-semibold text-white">Projects</h1>
-      
-    </div>
-</nav>
-<main class="container mx-auto mt-8">
-    <div class="flex flex-wrap justify-between">
-        <div class="w-full px-4 mb-8 md:w-8/12">
-            <img src="storage/tinhs.png" alt="Featured Image" class="object-cover w-full h-64 rounded">
-            <h2 class="mt-4 mb-2 text-4xl font-semibold text-gray-500">TINHS Portal</h2>
-            <p class="mb-4 text-gray-700">This school portal I have developed 
-            combines custom middleware with multi-authentication to deliver an 
-            innovative and inclusive educational experience for junior and senior 
-            high school students. By leveraging the power of technology, I aim to 
-            bridge the gap between students, teachers, and administrators, creating a 
-            seamless ecosystem.</p>
-           
-        </div>
-        <div class="w-full px-4 mb-8 md:w-4/12">
-            <div class="px-4 py-6 bg-gray-100 rounded">
-                <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
-          
-                <div class="flex gap-4 mb-2">
-                  <img src="storage/laravel.svg" class="w-6 h-6">
-                  <p>Laravel</p>
-                </div>
-
-                <div class="flex gap-4 mb-2">
-                  <img src="storage/livewire.svg" class="w-6 h-6">
-                  <p>Livewire</p>
-                </div>
-
-                <div class="flex gap-4 mb-2">
-                  <img src="storage/tailwind-css.svg" class="w-6 h-6">
-                  <p>Tailwind</p>
-                </div>
-
-                <div class="flex gap-4 ">
-                  <img src="storage/alpinejs-icon.svg" class="w-6 h-6">
-                  <p>Alpine Js</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
-</div> --}}
-
-
 <div data-aos="fade-up" data-aos-duration="2000" class="relative w-full">
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen ">
         <main class="container mx-auto mt-8">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
                     <img src="storage/sjmc-logo.png" alt="Featured Image" class="object-cover w-full h-64 rounded">
-                    <h2 class="mt-4 mb-2 text-4xl font-semibold text-gray-500">SJMC MEMBERSHIP MANAGEMENT SYSTEM</h2>
-                    <p class="mb-4 text-gray-700">Tau Gamma Phi San Juan Municipal Council Membership Management System
+                    <h2 class="mt-4 mb-2 text-lg font-semibold text-gray-500 md:text-2xl lg:text-4xl">SJMC MEMBERSHIP
+                        MANAGEMENT
+                        SYSTEM</h2>
+                    <p class="mb-4 text-sm text-gray-700 md:text-base">Tau Gamma Phi San Juan Municipal Council
+                        Membership
+                        Management System
                         -
                         is a web application
                         designed to facilitate the management of fraternity membership for existing members of the Tau
@@ -66,7 +20,7 @@
                         communication between fraternity members and administrators.</p>
 
                 </div>
-                <div class="w-full px-4 mb-8 md:w-4/12">
+                <div class="hidden w-full px-4 mb-8 md:w-4/12 md:block">
                     <div class="px-4 py-6 text-gray-500 bg-gray-100 rounded">
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
@@ -108,13 +62,10 @@
         {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal" title="SJMC MEMBERSHIP MANAGEMENT SYSTEM" separator persistent
             class="w-full">
-            <video width="420" height="340" controls class="w-full rounded-t-lg">
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-
+            {{-- <video width="420" height="340" src="https://www.youtube.com/embed/QpB0usKbhTU?si=TVpo9seWVq4Hj47X"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></video> --}}
             <x-slot:actions>
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
@@ -126,8 +77,8 @@
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
                     <img src="storage/tinhs.png" alt="Featured Image" class="object-cover w-full h-64 rounded">
-                    <h2 class="mt-4 mb-2 text-4xl font-semibold text-gray-500">TINHS Portal</h2>
-                    <p class="mb-4 text-gray-700">This school portal I have developed
+                    <h2 class="mt-4 mb-2 font-semibold text-gray-500 text:lg md:text-2xl lg:text-4xl">TINHS Portal</h2>
+                    <p class="mb-4 text-sm text-gray-700 md:text-base">This school portal I have developed
                         combines custom middleware with multi-authentication to deliver an
                         innovative and inclusive educational experience for junior and senior
                         high school students. By leveraging the power of technology, I aim to
@@ -135,7 +86,7 @@
                         seamless ecosystem.</p>
 
                 </div>
-                <div class="w-full px-4 mb-8 md:w-4/12">
+                <div class="hidden w-full px-4 mb-8 md:w-4/12 md:block">
                     <div class="px-4 py-6 text-gray-500 bg-gray-200 rounded">
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
@@ -194,15 +145,17 @@
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
                     <img src="storage/brr.jpg" alt="Featured Image" class="object-cover w-full h-64 rounded">
-                    <h2 class="mt-4 mb-2 text-4xl font-semibold text-gray-500">BARANGAY RESIDENT RECORD SYSTEM</h2>
-                    <p class="mb-4 text-gray-700">A desktop software application developed using Python with PyQt5 and
+                    <h2 class="mt-4 mb-2 font-semibold text-gray-500 text:lg md:text-2xl lg:text-4xl">BARANGAY RESIDENT
+                        RECORD SYSTEM</h2>
+                    <p class="mb-4 text-sm text-gray-700 md:text-base">A desktop software application developed using
+                        Python with PyQt5 and
                         MySQL as the underlying technologies its primary purpose is to facilitate the management and
                         organization of resident information within a barangay (local community) The system provides
                         various search functionalities to efficiently retrieve specific groups of residents based on
                         different criteria</p>
 
                 </div>
-                <div class="w-full px-4 mb-8 md:w-4/12">
+                <div class="hidden w-full px-4 mb-8 md:w-4/12 md:block">
                     <div class="px-4 py-6 text-gray-500 bg-gray-100 rounded">
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
@@ -252,8 +205,10 @@
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
                     <img src="storage/textspeech.png" alt="Featured Image" class="object-cover w-full h-64 rounded">
-                    <h2 class="mt-4 mb-2 text-4xl font-semibold text-gray-500">THE LAZY READER</h2>
-                    <p class="mb-4 text-gray-700">The Lazy Reader is a Python project a local desktop application that
+                    <h2 class="mt-4 mb-2 font-semibold text-gray-500 text:lg md:text-2xl lg:text-4xl">THE LAZY READER
+                    </h2>
+                    <p class="mb-4 text-sm text-gray-700 md:text-base">The Lazy Reader is a Python project a local
+                        desktop application that
                         aims to provide a text-to-speech solution
                         specifically designed for children. The primary functionality of the project is to convert text
                         input into speech output, allowing children to listen to the text instead of reading it
@@ -261,7 +216,7 @@
                         enhancing the user experience and making it more engaging</p>
 
                 </div>
-                <div class="w-full px-4 mb-8 md:w-4/12">
+                <div class="hidden w-full px-4 mb-8 md:w-4/12 md:block">
                     <div class="px-4 py-6 text-gray-500 bg-gray-100 rounded">
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
@@ -308,3 +263,16 @@
         </x-modal>
     </div>
 </div>
+
+
+@push('scripts')
+    <script>
+        document.addEventListener('livewire:load', function() {
+            $('#myModal').on('hidden.bs.modal', function(e) {
+                var iframe = document.getElementById('demoVideo');
+                // Pause the video when the modal is closed
+                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+            });
+        });
+    </script>
+@endpush
