@@ -170,7 +170,7 @@
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/mysql.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/mysql.svg') }}" class="w-6 h-6">
                             <p>MySQL</p>
                         </div>
 
