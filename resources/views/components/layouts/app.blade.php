@@ -23,6 +23,8 @@
             <img src="{{ asset('storage/profile.png') }}" class="w-10 " />
             <span class="pl-4 text-lg font-semibold">Gio Kuan</span>
 
+
+
         </x-slot:brand>
         <x-slot:actions>
             <label for="main-drawer" class="lg:hidden">
