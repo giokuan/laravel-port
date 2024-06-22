@@ -91,27 +91,27 @@
                         <h3 class="mb-2 text-lg font-bold">TECH USE:</h3>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/laravel.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/laravel.svg') }}" class="w-6 h-6">
                             <p>Laravel</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/livewire.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/livewire.svg') }}" class="w-6 h-6">
                             <p>Livewire</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/tailwind-css.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/tailwind-css.svg') }}" class="w-6 h-6">
                             <p>Tailwind</p>
                         </div>
 
                         <div class="flex gap-4 mb-2">
-                            <img src="storage/alpinejs-icon.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/alpinejs-icon.svg') }}" class="w-6 h-6">
                             <p>Alpine Js</p>
                         </div>
 
                         <div class="flex gap-4 ">
-                            <img src="storage/mysql.svg" class="w-6 h-6">
+                            <img src="{{ asset('storage/mysql.svg') }}" class="w-6 h-6">
                             <p>MySQL</p>
                         </div>
 
