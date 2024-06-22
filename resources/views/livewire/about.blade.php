@@ -3,7 +3,7 @@
         <h2 class="mb-12 text-3xl font-semibold text-center text-gray-500">Experience</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
             <div class="flex flex-row-reverse md:contents">
-                <div data-aos="fade-right" data-aos-duration="2000"
+                <div
                     class="relative col-start-1 col-end-5 p-4 my-6 mr-auto text-gray-500 bg-white shadow-md rounded-xl md:mr-0 md:ml-auto">
                     <h3 class="text-lg font-semibold lg:text-xl">Software Developer</h3>
                     <p class="mt-2 leading-6">Freelance</p>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-gray-500 rounded-full top-1/2"></div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="2000"
+                <div
                     class="relative col-start-6 col-end-10 p-4 my-6 mr-auto text-gray-500 bg-white shadow-md rounded-xl">
                     <h3 class="text-lg font-semibold lg:text-xl">Software Developer</h3>
                     <p class="mt-2 leading-6">Dice 205</p>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="flex flex-row-reverse md:contents">
-                <div data-aos="fade-right" data-aos-duration="2000"
+                <div
                     class="relative col-start-1 col-end-5 p-4 my-6 mr-auto text-gray-500 bg-white shadow-md rounded-xl md:mr-0 md:ml-auto">
                     <h3 class="text-lg font-semibold lg:text-xl">Software Developer</h3>
                     <p class="mt-2 leading-6">Freelance</p>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-gray-500 rounded-full top-1/2"></div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="2000"
+                <div
                     class="relative col-start-6 col-end-10 p-4 my-6 mr-auto text-gray-500 bg-white shadow-md rounded-xl">
                     <h3 class="text-lg font-semibold lg:text-xl">Python Developer</h3>
                     <p class="mt-2 leading-6">Freelance</p>
@@ -76,7 +76,7 @@
 
     <div class="grid grid-cols-2 gap-8 p-8 md:p-16">
 
-        <div data-aos="fade-right" data-aos-duration="2000"
+        <div
             class="relative flex flex-col items-center justify-start col-span-4 px-5 pt-10 pb-2 text-gray-300 border-2 border-gray-300 sm:col-span-2 lg:col-span-1 rounded-xl">
             <span class="absolute p-3 bg-white border-2 border-gray-300 rounded-full -top-6">
                 <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -92,7 +92,7 @@
         </div>
 
 
-        <div data-aos="fade-left" data-aos-duration="2000"
+        <div
             class="relative flex flex-col items-center justify-start col-span-4 px-5 pt-10 pb-2 text-gray-300 border-2 border-gray-300 sm:col-span-2 lg:col-span-1 rounded-xl">
             <span class="absolute p-3 bg-white border-2 border-gray-300 rounded-full -top-6">
                 <img src="{{ asset('storage/trophy.svg') }}" class="w-7 h-7 " />

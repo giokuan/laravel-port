@@ -1,5 +1,5 @@
 <div>
-    <div data-aos="zoom-in" data-aos-duration="2000" class="max-w-3xl px-5 mx-auto mt-28">
+    <div class="max-w-3xl px-5 mx-auto mt-28">
         <div class="flex flex-col justify-center">
 
             <div class="mb-4 text-center">

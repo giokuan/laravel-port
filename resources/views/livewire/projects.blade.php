@@ -1,4 +1,4 @@
-<div data-aos="fade-up" data-aos-duration="2000" class="relative w-full">
+<div class="relative w-full">
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen ">
         <main class="container mx-auto mt-8">
             <div class="flex flex-wrap justify-between">
