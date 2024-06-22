@@ -10,7 +10,7 @@
                         <img src="{{ asset('storage/programming.gif') }}"
                             class="dark:hidden h-[140px] md:h-[262px] w-full rounded-xl" alt="Programming">
                         <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/screen-image-imac-dark.png"
-                            class="hidden dark:block h-[140px] md:h-[262px] w-full rounded-xl" alt="">
+                            class="hidden dark:block h-[140px] md:h-[262px] w-full rounded-xl" alt="Device Mockup">
                     </div>
                 </div>
                 <div
