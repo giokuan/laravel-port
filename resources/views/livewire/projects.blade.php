@@ -250,8 +250,7 @@
         <x-modal wire:model="myPersistentModal4" title="THE LAZY READER" separator persistent
             class="w-full text-gray-500 ">
             <video width="420" height="340" controls class="w-full rounded-t-lg">
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4">
+                <source src="" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
