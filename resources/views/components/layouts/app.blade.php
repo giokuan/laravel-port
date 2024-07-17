@@ -20,7 +20,7 @@
     <x-nav sticky class="lg:hidden">
         <x-slot:brand>
             <x-app-brand />
-            <img src="{{ asset('storage/profile.png') }}" class="w-10 " alt="Profile Photo" />
+            <img src="{{ asset('storage/gio.png') }}" class="w-8 " alt="Profile Photo" />
             <span class="pl-4 text-lg font-semibold">Gio Kuan</span>
 
 
@@ -63,7 +63,7 @@
                                     class="h-[32px] w-[6px] bg-gray-800 dark:bg-gray-800 absolute -end-[16px] top-[88px] rounded-e-lg">
                                 </div>
                                 <div class="rounded-[2rem] overflow-hidden h-[193px] w-[188px]">
-                                    <img src="{{ asset('storage/profile.png') }}" class="mx-auto h-[194px] w-[189px]" />
+                                    <img src="{{ asset('storage/gio.png') }}" class="mx-auto h-[194px] w-[189px]" />
                                     {{-- <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/watch-screen-image.png" class="dark:hidden h-[193px] w-[188px]" alt=""> --}}
                                     <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/watch-screen-image-dark.png"
                                         class="hidden dark:block h-[193px] w-[188px]" alt="">
