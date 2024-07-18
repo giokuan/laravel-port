@@ -49,7 +49,7 @@
     <ul class="circles">
         <li>   
             <!-- Laravel -->
-            <div class="flex my-6 items-center justify-center px-4 text-gray-400 rounded-lg  ">
+            <div class="flex my-4 items-center justify-center px-4 text-gray-400 rounded-lg  ">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82"
                     height="40" viewBox="0 0 128 128" version="1.1">
                     <g id="surface1">
@@ -107,7 +107,7 @@
                 </div>
         </li>
         <li>
-        <div class="flex my-10 items-center justify-center px-4 text-gray-400 rounded-lg  ">
+        <div class="flex my-8 items-center justify-center px-4 text-gray-400 rounded-lg  ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="132" height="80" viewBox="0 0 128 128">
                         <path style="fill-rule:evenodd;fill:#fb70a9;fill-opacity:1"
                             d="M108.566 83.547c-1.937 2.926-3.406 6.527-7.34 6.527-6.624 0-6.98-10.203-13.609-10.203-6.625 0-6.265 10.203-12.887 10.203-6.625 0-6.98-10.203-13.609-10.203-6.625 0-6.266 10.203-12.887 10.203-6.625 0-6.98-10.203-13.605-10.203-6.629 0-6.27 10.203-12.89 10.203-2.083 0-3.544-1.008-4.778-2.39-4.738-8.239-7.465-17.895-7.465-28.22 0-30.222 23.367-54.722 52.191-54.722 28.825 0 52.192 24.5 52.192 54.723 0 8.64-1.91 16.816-5.313 24.082Zm0 0" />
