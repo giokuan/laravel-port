@@ -49,7 +49,7 @@
     <ul class="circles">
         <li>   
             <!-- Laravel -->
-            <div class="flex my-8 items-center justify-center px-4 text-gray-400 rounded-lg  ">
+            <div class="flex my-6 items-center justify-center px-4 text-gray-400 rounded-lg  ">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82"
                     height="40" viewBox="0 0 128 128" version="1.1">
                     <g id="surface1">
@@ -72,8 +72,10 @@
                 </div>
              </li>
         <li>
+            <!-- alpine -->
         <div
-            class="flex my-2 items-center justify-center px-4 text-gray-400 rounded-lg  moving-border ">
+       
+            class="flex my-4 items-center justify-center px-4 text-gray-400 rounded-lg  moving-border ">
             <svg width="82" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                 <path fill="#77c1d2" fill-rule="evenodd"
                     d="M98.444 35.562 126 62.997 98.444 90.432 70.889 62.997z" clip-rule="evenodd" />
