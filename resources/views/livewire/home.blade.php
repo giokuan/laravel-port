@@ -49,7 +49,7 @@
     <ul class="circles">
         <li>   
             <!-- Laravel -->
-            <div class="flex my-4 items-center justify-center px-4 text-gray-400 rounded-lg  ">
+            <div class="flex my-6 items-center justify-center px-4 text-gray-400 rounded-lg  ">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82"
                     height="40" viewBox="0 0 128 128" version="1.1">
                     <g id="surface1">
