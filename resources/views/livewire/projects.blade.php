@@ -115,17 +115,19 @@
         <x-button label="View Demo" class="text-white bg-gray-500" @click="$wire.myPersistentModal = true" />
 
         {{-- Notice `persistent` --}}
-        <!-- <x-modal wire:model="myPersistentModal" title="SJMC MEMBERSHIP MANAGEMENT SYSTEM" separator persistent
+        <x-modal wire:model="myPersistentModal" title="SJMC MEMBERSHIP MANAGEMENT SYSTEM" separator persistent
             class="w-full">
-            {{-- <video width="420" height="340" src="https://www.youtube.com/embed/QpB0usKbhTU?si=TVpo9seWVq4Hj47X"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></video> --}}
+           
+<video class="w-full h-auto max-w-full" controls>
+  <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
             <x-slot:actions>
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
             </x-slot:actions>
-        </x-modal> -->
+        </x-modal>
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-white bg-gray-50">
         <main class="container mx-auto mt-8">
@@ -206,12 +208,12 @@
 
         {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal2" title="TINHS Portal" separator persistent class="w-full text-gray-500">
-            <video width="420" height="340" controls class="w-full rounded-t-lg">
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                    type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
+            
+<video class="w-full h-auto max-w-full" controls>
+  <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
             <x-slot:actions>
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal2 = false" />

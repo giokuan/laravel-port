@@ -20,7 +20,7 @@
     <x-nav sticky class="lg:hidden">
         <x-slot:brand>
             <x-app-brand />
-            <img src="{{ asset('storage/gio.png') }}" class="w-8 " alt="Profile Photo" />
+            <img src="{{ asset('storage/gio.png') }}" class="w-8 rounded-full" alt="Profile Photo" />
             <span class="pl-4 text-lg font-semibold">Gio Kuan</span>
 
 
