@@ -114,7 +114,7 @@
 
        
 
-        {{-- Notice `persistent` --}}
+        <!-- {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal" title="SJMC MEMBERSHIP MANAGEMENT SYSTEM" separator persistent
             class="w-full">
            
@@ -127,7 +127,7 @@
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
             </x-slot:actions>
-        </x-modal>
+        </x-modal> -->
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-white bg-gray-50">
         <main class="container mx-auto mt-8">
@@ -235,7 +235,7 @@
 
         
 
-        {{-- Notice `persistent` --}}
+        <!-- {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal2" title="TINHS Portal" separator persistent class="w-full text-gray-500">
             
 <video class="w-full h-auto max-w-full" controls>
@@ -248,7 +248,7 @@
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal2 = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
             </x-slot:actions>
-        </x-modal>
+        </x-modal> -->
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-white bg-white">
         <main class="container mx-auto mt-8">
@@ -345,7 +345,7 @@
 
 
 
-        {{-- Notice `persistent` --}}
+        <!-- {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal3" title="BARANGAY RESIDENT RECORD SYSTEM" separator persistent
             class="w-full text-gray-500 ">
             <video width="420" height="340" controls class="w-full rounded-t-lg">
@@ -359,7 +359,7 @@
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal3 = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
             </x-slot:actions>
-        </x-modal>
+        </x-modal> -->
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-black bg-gray-50">
         <main class="container mx-auto mt-8">
@@ -458,7 +458,7 @@
 
     
 
-        {{-- Notice `persistent` --}}
+        <!-- {{-- Notice `persistent` --}}
         <x-modal wire:model="myPersistentModal4" title="THE LAZY READER" separator persistent
             class="w-full text-gray-500 ">
             <video width="420" height="340" controls class="w-full rounded-t-lg">
@@ -471,12 +471,12 @@
                 <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal4 = false" />
                 {{-- <x-button label="Confirm" class="btn-primary" /> --}}
             </x-slot:actions>
-        </x-modal>
+        </x-modal> -->
     </div>
 </div>
 </div>
 
-@push('scripts')
+<!-- @push('scripts')
     <script>
         document.addEventListener('livewire:load', function() {
             $('#myModal').on('hidden.bs.modal', function(e) {
@@ -486,4 +486,4 @@
             });
         });
     </script>
-@endpush
+@endpush -->
