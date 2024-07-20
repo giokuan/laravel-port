@@ -37,7 +37,7 @@
                             <div class="mb-8 ml-4">
                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Address
                                 </h3>
-                                <p class="text-gray-600 dark:text-slate-400">312 Tipas San Juan Batangas Philippines
+                                <p class="text-gray-600 dark:text-slate-400">312 Tipas San Juan Batangas 
                                 </p>
                                 {{-- <p class="text-gray-600 dark:text-slate-400">Philippines</p> --}}
                             </div>
