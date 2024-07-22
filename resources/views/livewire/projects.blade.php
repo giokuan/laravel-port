@@ -114,20 +114,7 @@
 
        
 
-        <!-- {{-- Notice `persistent` --}}
-        <x-modal wire:model="myPersistentModal" title="SJMC MEMBERSHIP MANAGEMENT SYSTEM" separator persistent
-            class="w-full">
-           
-<video class="w-full h-auto max-w-full" controls>
-  <source src="/docs/videos/flowbite.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-            <x-slot:actions>
-                <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal = false" />
-                {{-- <x-button label="Confirm" class="btn-primary" /> --}}
-            </x-slot:actions>
-        </x-modal> -->
+       
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-white bg-gray-50">
         <main class="container mx-auto mt-8">
@@ -235,20 +222,7 @@
 
         
 
-        <!-- {{-- Notice `persistent` --}}
-        <x-modal wire:model="myPersistentModal2" title="TINHS Portal" separator persistent class="w-full text-gray-500">
-            
-<video class="w-full h-auto max-w-full" controls>
-  <source src="/docs/videos/flowbite.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-
-            <x-slot:actions>
-                <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal2 = false" />
-                {{-- <x-button label="Confirm" class="btn-primary" /> --}}
-            </x-slot:actions>
-        </x-modal> -->
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-white bg-white">
         <main class="container mx-auto mt-8">
@@ -345,21 +319,7 @@
 
 
 
-        <!-- {{-- Notice `persistent` --}}
-        <x-modal wire:model="myPersistentModal3" title="BARANGAY RESIDENT RECORD SYSTEM" separator persistent
-            class="w-full text-gray-500 ">
-            <video width="420" height="340" controls class="w-full rounded-t-lg">
-                <source src="https://youtu.be/rp-VY-y1oGs?si=EHsQOLrRFotKs4K9"
-                    type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
 
-            <x-slot:actions>
-                <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal3 = false" />
-                {{-- <x-button label="Confirm" class="btn-primary" /> --}}
-            </x-slot:actions>
-        </x-modal> -->
     </div>
     <div class="sticky top-0 flex flex-col items-center justify-center h-screen text-black bg-gray-50">
         <main class="container mx-auto mt-8">
@@ -456,34 +416,8 @@
         {{-- Livewire: fires network request --}}
          <x-button label="View Demo" class="text-white bg-gray-500" wire:click="LazyReader" /> 
 
-    
 
-        <!-- {{-- Notice `persistent` --}}
-        <x-modal wire:model="myPersistentModal4" title="THE LAZY READER" separator persistent
-            class="w-full text-gray-500 ">
-            <video width="420" height="340" controls class="w-full rounded-t-lg">
-                <source src="https://youtu.be/rp-VY-y1oGs?si=EHsQOLrRFotKs4K9" type="video/mp4">
-                <source src="https://youtu.be/rp-VY-y1oGs?si=EHsQOLrRFotKs4K9" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-
-            <x-slot:actions>
-                <x-button class="bg-gray-500" label="Close" @click="$wire.myPersistentModal4 = false" />
-                {{-- <x-button label="Confirm" class="btn-primary" /> --}}
-            </x-slot:actions>
-        </x-modal> -->
     </div>
 </div>
 </div>
 
-<!-- @push('scripts')
-    <script>
-        document.addEventListener('livewire:load', function() {
-            $('#myModal').on('hidden.bs.modal', function(e) {
-                var iframe = document.getElementById('demoVideo');
-                // Pause the video when the modal is closed
-                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-            });
-        });
-    </script>
-@endpush -->
