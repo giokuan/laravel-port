@@ -46,7 +46,7 @@
 
     </div>
 
-    {{-- Background animation --}}
+    {{-- Background animation added --}} 
     <ul class="circles">
         <li>   
             <!-- Laravel -->
