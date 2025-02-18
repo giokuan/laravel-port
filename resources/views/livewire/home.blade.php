@@ -33,8 +33,8 @@
             <p class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                 Welcome to my digital playground, where lines of code transform into sleek solutions!<br><br> I'm <span
                     class="text-blue-500 animate-pulse">Giovanni Kuan, </span>
-                a passionate freelance software developer with a knack for crafting intuitive experiences and robust
-                applications. From concept to execution, I thrive on turning ideas into reality, one keystroke at a
+                a passionate freelance software developer with a knack for crafting intuitive experiences 
+                 From concept to execution, I thrive on turning ideas into reality, one keystroke at a
                 time.
                 Let's collaborate and bring your next project to life
             </p>
