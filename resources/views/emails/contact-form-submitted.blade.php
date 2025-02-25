@@ -26,9 +26,9 @@
             </blockquote> --}}
 
             <p><strong>Name:</strong> {{ $name ?? 'N/A' }}</p>
-    <p><strong>Email:</strong> {{ $email ?? 'N/A' }}</p>
-    <p><strong>Message:</strong></p>
-    <blockquote>{{ $messageContent ?? 'No message provided.' }}</blockquote>
+            <p><strong>Email:</strong> {{ $email ?? 'N/A' }}</p>
+            <p><strong>Message:</strong></p>
+            <blockquote>{{ $messageContent ?? 'No message provided.' }}</blockquote>
 
 
             <p style="margin-top: 20px; color: #666;">Thanks,<br>{{ $name ?? 'Anonymous' }}</p>
