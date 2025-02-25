@@ -18,17 +18,17 @@
         <main style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
             <h2 style="color: #333;">New Contact Form Submission</h2>
 
-            {{-- <p><strong>Name:</strong> {{ $name ?? 'N/A' }}</p>
+            <p><strong>Name:</strong> {{ $name ?? 'N/A' }}</p>
             <p><strong>Email:</strong> {{ $email ?? 'N/A' }}</p>
             <p><strong>Message:</strong></p>
             <blockquote style="border-left: 4px solid #007bff; padding-left: 10px; color: #555;">
                 {{ $messageContent ?? 'No message provided.' }}
-            </blockquote> --}}
+            </blockquote>
 
-            <p><strong>Name:</strong> {{ $name ?? 'N/A' }}</p>
+            {{-- <p><strong>Name:</strong> {{ $name ?? 'N/A' }}</p>
             <p><strong>Email:</strong> {{ $email ?? 'N/A' }}</p>
             <p><strong>Message:</strong></p>
-            <blockquote>{{ $messageContent ?? 'No message provided.' }}</blockquote>
+            <blockquote>{{ $messageContent ?? 'No message provided.' }}</blockquote> --}}
 
 
             <p style="margin-top: 20px; color: #666;">Thanks,<br>{{ $name ?? 'Anonymous' }}</p>
