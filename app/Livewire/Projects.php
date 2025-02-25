@@ -13,7 +13,8 @@ class Projects extends Component
 
     public $barangayrecordsystem = 'https://youtu.be/rp-VY-y1oGs?si=ZR80LRcV-a7EO-M5';
 
-    public $sjbmc = 'https://youtu.be/QpB0usKbhTU?si=PDaiyUSwpdhR_XRI';
+    // public $sjbmc = 'https://youtu.be/QpB0usKbhTU?si=PDaiyUSwpdhR_XRI';
+    public $sjbmc = '';
 
     public $lazy = 'https://youtu.be/n3ShQvM3do8?si=VaJs_pM4tlfqFmEL';
 
