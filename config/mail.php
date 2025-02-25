@@ -49,8 +49,8 @@ return [
         'smtp' => [
         'transport' => 'smtp',
         'host' => env('MAIL_HOST', 'smtp.gmail.com'), // Only one host!
-        'port' => env('MAIL_PORT', 465),
-        'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
+        'port' => env('MAIL_PORT', 587),
+        'encryption' => env('MAIL_ENCRYPTION', 'tsl'),
         'username' => env('MAIL_USERNAME'),
         'password' => env('MAIL_PASSWORD'),
         'timeout' => null,
