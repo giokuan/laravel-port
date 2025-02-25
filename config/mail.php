@@ -36,7 +36,7 @@ return [
     'mailers' => [
         'smtp' => [
         'transport' => 'smtp',
-        'host' => env('MAIL_HOST', 'sandbox.smtp.mailtrap.io'), // Only one host!
+        'host' => env('MAIL_HOST', 'smtp.elasticemail.com'), // Only Elastic Email host!
         'port' => env('MAIL_PORT', 2525),
         'encryption' => env('MAIL_ENCRYPTION', 'tls'),
         'username' => env('MAIL_USERNAME'),
