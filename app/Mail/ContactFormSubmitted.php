@@ -32,18 +32,16 @@ class ContactFormSubmitted extends Mailable
 
     public function build()
     {
-        // Render the Livewire component's view
-        $livewireView = view('livewire.contact')->render();
-
         return $this->from($this->email)
                     ->subject('Contact Form Submission')
-                    ->view('emails.contact-form-submitted', [
+                    ->view('emails.contact-form-submitted')
+                    ->with([
                         'name' => $this->name,
                         'email' => $this->email,
                         'messageContent' => $this->message,
-                        'livewireView' => $livewireView, // Pass the rendered view
                     ]);
     }
+    
 
     /**
      * Get the message envelope.

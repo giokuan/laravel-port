@@ -51,5 +51,6 @@ class Contact extends Component
     public function render()
     {
         return view('livewire.contact');
+        // $livewireView = view('livewire.contact')->render();
     }
 }
