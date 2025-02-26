@@ -36,13 +36,13 @@ return [
     'mailers' => [
         'smtp' => [
         'transport' => 'smtp',
-        'host' => env('MAIL_HOST', 'smtp.elasticemail.com'), // Only Elastic Email host!
-        'port' => env('MAIL_PORT', 2525),
+        'host' => env('MAIL_HOST', 'outlook.office365.com'), // Only Elastic Email host!
+        'port' => env('MAIL_PORT', 993),
         'encryption' => env('MAIL_ENCRYPTION', 'tls'),
         'username' => env('MAIL_USERNAME'),
         'password' => env('MAIL_PASSWORD'),
         'timeout' => null,
-        'auth_mode' => 'login',
+        'auth_mode' => 'OAuth2/Modern Auth',
         'local_domain' => env('MAIL_EHLO_DOMAIN'),
     ],
 
