@@ -37,7 +37,7 @@ return [
         'smtp' => [
         'transport' => 'smtp',
         'host' => env('MAIL_HOST', 'outlook.office365.com'), // Only Elastic Email host!
-        'port' => env('MAIL_PORT', 993),
+        'port' => env('MAIL_PORT', 587),
         'encryption' => env('MAIL_ENCRYPTION', 'tls'),
         'username' => env('MAIL_USERNAME'),
         'password' => env('MAIL_PASSWORD'),
