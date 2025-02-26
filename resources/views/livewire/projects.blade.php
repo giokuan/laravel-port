@@ -4,7 +4,7 @@
         <main class="container mx-auto mt-8">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
-                    <img src="{{asset ('storage/tgp.png')}}" alt="Featured Image" class="object-cover w-full h-64 rounded">
+                    <img src="{{asset ('storage/tgp.png')}}" alt="Featured Image" class="object-cover w-full h-32 rounded">
                     <h2 class="mt-4 mb-2 text-lg font-semibold text-gray-500 md:text-2xl lg:text-4xl">SJMC MEMBERSHIP
                         MANAGEMENT
                         SYSTEM</h2>
