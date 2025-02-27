@@ -33,32 +33,32 @@ return [
     |
     */
 
-    'mailers' => [
-        'smtp' => [
-        'transport' => 'smtp',
-        'host' => env('MAIL_HOST', 'smtp.mailersend.net'), 
-        'port' => env('MAIL_PORT', 587),
-        'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-        'username' => env('MAIL_USERNAME'),
-        'password' => env('MAIL_PASSWORD'),
-        'timeout' => null,
-        'auth_mode' => 'login',
-        'local_domain' => env('MAIL_EHLO_DOMAIN'),
-    ],
-
- 
-
     // 'mailers' => [
     //     'smtp' => [
     //     'transport' => 'smtp',
-    //     'host' => env('MAIL_HOST', 'smtp.gmail.com'), 
+    //     'host' => env('MAIL_HOST', 'smtp.mailersend.net'), 
     //     'port' => env('MAIL_PORT', 587),
-    //     'encryption' => env('MAIL_ENCRYPTION', 'tsl'),
+    //     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
     //     'username' => env('MAIL_USERNAME'),
     //     'password' => env('MAIL_PASSWORD'),
     //     'timeout' => null,
+    //     'auth_mode' => 'login',
     //     'local_domain' => env('MAIL_EHLO_DOMAIN'),
     // ],
+
+ 
+
+    'mailers' => [
+        'smtp' => [
+        'transport' => 'smtp',
+        'host' => env('MAIL_HOST', 'smtp.gmail.com'), 
+        'port' => env('MAIL_PORT', 587),
+        'encryption' => env('MAIL_ENCRYPTION', 'tsl'),
+        'username' => env('MAIL_USERNAME'),
+        'password' => env('MAIL_PASSWORD'),
+        'timeout' => null,
+        'local_domain' => env('MAIL_EHLO_DOMAIN'),
+    ],
 
         'ses' => [
             'transport' => 'ses',
