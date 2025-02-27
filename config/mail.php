@@ -46,6 +46,8 @@ return [
         'local_domain' => env('MAIL_EHLO_DOMAIN'),
     ],
 
+    // for google smtp
+
     // 'mailers' => [
     //     'smtp' => [
     //     'transport' => 'smtp',
