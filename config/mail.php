@@ -36,7 +36,7 @@ return [
     'mailers' => [
         'smtp' => [
         'transport' => 'smtp',
-        'host' => env('MAIL_HOST', 'smtp.mailersend.net'), // Only Elastic Email host!
+        'host' => env('MAIL_HOST', 'smtp.mailersend.net'), 
         'port' => env('MAIL_PORT', 587),
         'encryption' => env('MAIL_ENCRYPTION', 'tls'),
         'username' => env('MAIL_USERNAME'),
