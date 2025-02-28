@@ -1,7 +1,10 @@
 <div>
+   
 <div class="relative w-full">
+  
 
     <div class="sticky top-0 flex flex-col items-center justify-center  h-screen ">
+        <h2 class="flex flex-col items-center justify-center text-4xl font-bold text-gray-500"> Projects </h2>
         <main class="container mx-auto mt-8">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full px-4 mb-8 md:w-8/12">
@@ -100,21 +103,31 @@
                             
 
                     </div>
-                    <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
-                    <div class="relative inline-block">
-                        <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
-                            <span
-                                class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
-                            <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
-                        </span>
-                        <x-button label="View Site" class="text-white bg-gray-500 mt-8 mx-0" wire:click="GevSite" />
-                    </div>
-                    </div>
+                        <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                            <div class="relative inline-block">
+                                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                                    <span
+                                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                                </span>
+                                <x-button label="View Site" class="text-white bg-gray-500 mt-8 mx-0" wire:click="GevSite" />
+                            </div>
+                        </div>
                 </div>
               
             </div>
         </main>
         {{-- Livewire: fires network request --}}
+        <div class="md:hidden mt-12 flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+            <div class="relative inline-block">
+                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                    <span
+                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                </span>
+                <x-button label="View Site" class="text-white bg-gray-500 mt-8 mx-0" wire:click="GevSite" />
+            </div>
+        </div>
       
      
 
@@ -139,8 +152,7 @@
                         is a web application
                         designed to facilitate the management of fraternity membership for existing members of the Tau
                         Gamma Phi
-                        San Juan Municipal Council. The system leverages the TALL stack, which includes Tailwind CSS,
-                        Alpine.js, Laravel, and Livewire. The primary objective of the system is to provide an intuitive
+                        San Juan Municipal Council. The primary objective of the system is to provide an intuitive
                         and efficient platform for managing fraternity membership information and facilitating
                         communication between fraternity members and administrators.</p>
 
@@ -245,6 +257,16 @@
         </main>
         {{-- Livewire: fires network request --}}
         {{-- <x-button label="View Demo" class="text-white bg-gray-500 mt-4" wire:click="SJBMCVideo" /> --}}
+        <div class="md:hidden mt-28 flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+            <div class="relative inline-block">
+                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                    <span
+                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                </span>
+                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="SJBMCVideo" />
+            </div>
+        </div>
      
 
        
@@ -364,6 +386,16 @@
         </main>
         {{-- Livewire: fires network request --}}
         {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="TINHSPortal" /> --}}
+        <div class="md:hidden mt-14 flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+            <div class="relative inline-block">
+                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                    <span
+                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                </span>
+                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="TINHSPortal" />
+            </div>
+        </div>
 
         
 
@@ -471,6 +503,16 @@
         </main>
         {{-- Livewire: fires network request --}}
      {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="redirectToVideoLink"/> --}}
+     <div class="md:hidden mt-16 flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+        <div class="relative inline-block">
+            <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                <span
+                    class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+            </span>
+            <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="redirectToVideoLink" />
+        </div>
+    </div>
 
 
 
@@ -580,6 +622,16 @@
         </main>
         {{-- Livewire: fires network request --}}
          {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="LazyReader" />  --}}
+         <div class="md:hidden flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+            <div class="relative inline-block">
+                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                    <span
+                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                </span>
+                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="LazyReader" />
+            </div>
+        </div>
 
 
     </div>
