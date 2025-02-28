@@ -97,12 +97,25 @@
                                 <p>MySQL</p>
                             </div>
 
+                            
+
+                    </div>
+                    <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                    <div class="relative inline-block">
+                        <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                            <span
+                                class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                            <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                        </span>
+                        <x-button label="View Site" class="text-white bg-gray-500 mt-8 mx-0" wire:click="GevSite" />
+                    </div>
                     </div>
                 </div>
+              
             </div>
         </main>
         {{-- Livewire: fires network request --}}
-        <x-button label="View Site" class="text-white bg-gray-500" wire:click="GevSite" />
+      
      
 
        
@@ -215,12 +228,23 @@
                                 <p>MySQL</p>
                             </div>
 
+                          
                     </div>
+                        <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                            <div class="relative inline-block">
+                                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                                    <span
+                                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                                </span>
+                                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="SJBMCVideo" />
+                            </div>
+                        </div>
                 </div>
             </div>
         </main>
         {{-- Livewire: fires network request --}}
-        <x-button label="View Demo" class="text-white bg-gray-500 mt-4" wire:click="SJBMCVideo" />
+        {{-- <x-button label="View Demo" class="text-white bg-gray-500 mt-4" wire:click="SJBMCVideo" /> --}}
      
 
        
@@ -325,11 +349,21 @@
                         </div>
 
                     </div>
+                        <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                            <div class="relative inline-block">
+                                <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                                    <span
+                                        class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                                    <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                                </span>
+                                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="TINHSPortal" />
+                            </div>
+                        </div>
                 </div>
             </div>
         </main>
         {{-- Livewire: fires network request --}}
-        <x-button label="View Demo" class="text-white bg-gray-500" wire:click="TINHSPortal" />
+        {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="TINHSPortal" /> --}}
 
         
 
@@ -422,11 +456,21 @@
                         </div>
 
                     </div>
+                    <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                        <div class="relative inline-block">
+                            <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                                <span
+                                    class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                                <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                            </span>
+                            <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="redirectToVideoLink" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         {{-- Livewire: fires network request --}}
-     <x-button label="View Demo" class="text-white bg-gray-500" wire:click="redirectToVideoLink"/>
+     {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="redirectToVideoLink"/> --}}
 
 
 
@@ -521,11 +565,21 @@
 
 
                     </div>
+                    <div class="flex justify-center duration-300 hover:-translate-y-1 hover:scale-110">
+                        <div class="relative inline-block">
+                            <span class="absolute inline-flex items-center justify-center w-3 h-3 top-7 -right-1">
+                                <span
+                                    class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
+                                <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
+                            </span>
+                            <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="LazyReader" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         {{-- Livewire: fires network request --}}
-         <x-button label="View Demo" class="text-white bg-gray-500" wire:click="LazyReader" /> 
+         {{-- <x-button label="View Demo" class="text-white bg-gray-500" wire:click="LazyReader" />  --}}
 
 
     </div>
