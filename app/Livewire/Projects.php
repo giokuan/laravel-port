@@ -13,6 +13,8 @@ class Projects extends Component
 
     public $barangayrecordsystem = 'https://youtu.be/rp-VY-y1oGs?si=ZR80LRcV-a7EO-M5';
 
+    public $gev = 'https://gevconstruction-master-ahjv38.laravel.cloud/';
+
     // public $sjbmc = 'https://youtu.be/QpB0usKbhTU?si=PDaiyUSwpdhR_XRI';
     public $sjbmc = '';
 
@@ -20,12 +22,19 @@ class Projects extends Component
 
     public $portal = 'https://youtu.be/2jMDMhAPTjk?si=ctrI3splX1jPJD9Y';
 
+    
+
 
 
 
     public function redirectToVideoLink()
     {
         return redirect()->to($this->barangayrecordsystem);
+    }
+
+    public function GevSite()
+    {
+        return redirect()->to($this->gev);
     }
 
     public function SJBMCVideo()
