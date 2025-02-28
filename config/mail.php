@@ -61,6 +61,8 @@ return [
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
 
+        // gmail
+
     'gmail' => [
         'transport' => 'smtp',
         'host' => 'smtp.gmail.com',
