@@ -16,7 +16,7 @@ class Projects extends Component
     public $gev = 'https://gevconstruction-master-ahjv38.laravel.cloud/';
 
     // public $sjbmc = 'https://youtu.be/QpB0usKbhTU?si=PDaiyUSwpdhR_XRI';
-    public $sjbmc = '';
+    public $sjbmc = 'https://tgp-sjmc.laravel.cloud/';
 
     public $lazy = 'https://youtu.be/n3ShQvM3do8?si=VaJs_pM4tlfqFmEL';
 
