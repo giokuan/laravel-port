@@ -264,7 +264,7 @@
                         class="absolute inline-flex w-full h-full bg-orange-500 rounded-full opacity-75 animate-ping"></span>
                     <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
                 </span>
-                <x-button label="View Demo" class="text-white bg-gray-500 mt-8 mx-0" wire:click="SJBMCVideo" />
+                <x-button label="View Site" class="text-white bg-gray-500 mt-8 mx-0" wire:click="SJBMCVideo" />
             </div>
         </div>
      
